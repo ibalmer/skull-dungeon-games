@@ -441,12 +441,14 @@ p, a, li, span, small, strong, label, option, blockquote{
     cursor: pointer;
 }
 .contact:hover{
+    fa-bounce;
     transform: scale(1.5) translateX(15%);
     .contact-icon{
         color: var(--primary);
     }
     .contact-span{
         color: var(--white);
+        
     }
 }
 
@@ -517,6 +519,9 @@ input[type="radio"] + label {
         }
 }
 @media (max-width: 880px){
+    /* #main-section, #main-img-transparent{
+        width: 96vw;
+    } */
     #port-header{
         font-size: var(--size-max-1);
         display: flex;
