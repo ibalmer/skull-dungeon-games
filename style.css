@@ -1,0 +1,128 @@
+#header{
+    z-index: 5;
+}
+#header-logo{
+    transition: all 0.3s;
+}
+#header-logo:hover{ transform: scale(1.3); }
+
+#header-button{ 
+    min-width: fit-content;
+}
+
+#main{
+    padding-top: 10rem;
+}
+#main-div{
+    background-image: url("images/stock/project 2/a4.jpg");
+}
+#main-logo{
+    top: 7%;
+    right: 1%;
+    z-index: 2;
+    width: 24vw;
+    transform: rotateZ(39deg);
+}
+#main-img-transparent, #main-div{
+    clip-path: polygon(0% 0%, 50% 0, 100% 70%, 100% 100%, 0% 100%);
+    background-size: cover;
+}
+#img-aux{
+    width: 75vw;
+    opacity: 0;
+}
+#main-img-transparent{
+    background-image: url("images/stock/project 1/a1.jpg");
+    animation-name: aparecer;
+    animation-duration: 8s;
+    animation-iteration-count: infinite; 
+}
+.port-container{
+    padding-inline: 25%;
+}
+.port-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr 1fr;
+    gap: .5rem .5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "title title"
+      "div p"
+      "div img"
+      "div img";
+}
+  
+.port-title { grid-area: title; }
+ 
+.port-text { 
+    grid-area: p;
+    width: 400px;
+}
+.hover-port-text { 
+    width: 400px;
+}
+
+
+.port-images { grid-area: img; }
+  
+.port-div{ 
+    min-width: 400px;
+    width: 400px;  
+    height: 400px;
+    grid-area: div;
+}
+
+#port-pop{
+    width: 711.11px;
+    height: 400px;
+}
+.port-img-container{
+    width: 50%;
+}
+.port-title{ text-wrap: none; }
+
+.zoom-icon-1{
+    top: 50%;
+    left: 50%;
+}
+.contact-icon{
+    width: 27px;
+}
+#contact-logo{
+    width: 400px;
+    
+}
+#form-button{
+    margin-left: 25%;
+}
+
+
+.menu-desplegable { 
+    font-size: 16px;
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #333; 
+    background-color: #fff; 
+    color: #333; 
+    appearance: none; 
+    /* Ocultar el carrot por defecto */ 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    position: relative; 
+} 
+.menu-desplegable-icon { 
+    position: absolute; 
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    pointer-events: none; 
+} 
+.menu-wrapper { 
+    position: relative; 
+    display: inline-block; 
+}
+
+   
+
+

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skull Dungeon</title>
+     <!---->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/bb8f1272ae.js" crossorigin="anonymous"></script>
+     <!---->
+      <link rel="stylesheet" href="library.css">
+      <link rel="stylesheet" href="style.css">
+
+</head>
+<body id="body">
+    <header id="header" class="width-100 p-inline-5 p-block-2 m-top-4 flex flex-center aling-center fixed">
+        <nav id="nav-visible" class="flex flex-center aling-center bg-transparent p-inline-4 p-block-2 radius-3">
+            <img id="header-logo" class="width-40p flex flex-center m-right-4" src="images/Logos/LOGO-3.png" alt="Logo Skull Dungeon">
+            <div class="flex flex-center gap-4">
+                <a href="#body" id="header-button"><button type="button"  class="button-1 align-self-center">Inicio</button></a>
+                <a href="#portafolio" id="header-button"><button type="button"  class="button-1 align-self-center">Juegos</button></a>
+                <a href="#recursos" id="header-button"><button type="button"  class="button-1 align-self-center">Recursos</button></a>
+                <a href="#nosotros" id="header-button"><button type="button"  class="button-1 align-self-center">Nosotros</button></a>
+            </div>
+            <a href="#contacto" id="header-button"><button type="button"  class="button-1 align-self-center m-left-4">Contacto</button></a>
+        </nav>
+        <nav id="nav-hidden" class="none flex-center bg-transparent p-inline-4 p-block-2 radius-3">
+            <img id="header-logo" class="width-40p flex flex-center m-right-4" src="images/Logos/LOGO-3.png" alt="Logo Skull Dungeon">
+            <div class="flex flex-center gap-2">
+                <a href="#body" id="header-button"><button type="button"  class="button-1 align-self-center"><i class="fa-solid fa-house"></i></button></a>
+                <a href="#portafolio" id="header-button"><button type="button"  class="button-1 align-self-center"><i class="fa-solid fa-gamepad"></i></button></a>
+                <a href="#recursos" id="header-button"><button type="button"  class="button-1 align-self-center"><i class="fa-solid fa-gear"></i></button></a>
+                <a href="#nosotros" id="header-button"><button type="button"  class="button-1 align-self-center"><i class="fa-solid fa-users"></i></button></a>
+            </div>
+            <a href="#contacto" id="header-button"><button type="button"  class="button-1 align-self-center m-left-4"><i class="fa-solid fa-envelope"></i></button></a>
+        </nav>
+        <nav id="header-burguer" class="none flex-center bg-transparent p-inline-4 p-block-2 radius-3">
+            <img id="header-logo" class="width-40p flex flex-center m-right-4" src="images/Logos/LOGO-3.png" alt="Logo Skull Dungeon">
+            <div class="menu-wrapper"> 
+                <select class="menu-desplegable button-1" onchange="location = this.value;"> 
+                    <option class="button-1" value="">Menú</option> 
+                    <option class="button-1" value="inicio.html">Inicio</option> <option class="button-1" value="juegos.html">Juegos</option> <option class="button-1" value="recursos.html">Recursos</option> 
+                    <option class="button-1" value="nosotros.html">Nosotros</option> 
+                    <option class="button-1" value="contacto.html">Contacto</option> </select> <i class="fas fa-bars menu-desplegable-icon"></i> </div>
+        </nav>
+    </header>
+    <main id="main" class="flex flex-center aling-center m-bottom-7">
+        <section id="main-section" class="fit-content relative">
+            <img id="main-logo"class="absolute" src="images/Logos/LOGO-6.png" alt="">
+            <div id="main-div" class="flex flex-center aling-center radius-3 relative"> 
+                <div id="main-img-transparent" class="radius-3">
+                    <img id="img-aux" src="images/stock/project 1/a1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="portafolio" class="flex flex-start aling-center width-100  m-top-7 column">
+        <h2 id="port-header" class="title-gradient-2 flex flex-center m-bottom-3">El Universo Skull Dungeon</h2>
+        <div class="port-container m-5 flex flex-center justify-self-center">
+            <h3 class="title-gradient-2 port-title justify-self-center m-bottom-4">The rouge, Prince of Persia</h3>
+            <div class="port-div flex flex-start aling-center hidden m4 radius-2">
+                <img id="port-pop" class="port-img width-100 justify-self-center " src="images/stock/project 1/a2.webp" alt="">
+                <p class="hover-port-text none port-text m-1">
+                    The Rogue Prince of Persia es un roguelite de plataformas y acción que 
+                    aprovecha las famosas carreras por las paredes y el combate acrobático 
+                    de la aclamada saga para ofrecer una aventura frenéticay adictiva creada por Evil Empire, un estudio que se ha hecho famoso a base de crear contenido tras el lanzamiento de uno de los roguelites de acción más aclamados.       
+                </p>
+            </div>
+            <p class="port-text m-1 gray-2">
+                The Rogue Prince of Persia es un roguelite de plataformas y acción que 
+                aprovecha las famosas carreras por las paredes y el combate acrobático 
+                de la aclamada saga para ofrecer una aventura frenéticay adictiva creada por Evil Empire, un estudio que se ha hecho famoso a base de crear contenido tras el lanzamiento de uno de los roguelites de acción más aclamados.       
+            </p>
+                <div class="port-images gap-4 flex flex-center aling-center">
+                <div class="port-img-container flex flex-center aling-center">
+                    <img class="justify-self-center width-100 m-3 radius-2 img-1 border-2 bc3" src="images/stock/project 1/a3.avif" alt="">
+                </div>
+                <div class="port-img-container flex flex-center aling-center">
+                    <img class="justify-self-center width-100 m-3 radius-2 img-2 border-2 bc3" src="images/stock/project 1/a5.webp" alt=""> 
+                </div>
+            </div>
+        </div>
+        <div class="port-container m-5 flex flex-center justify-self-center">
+            <h3 class="title-gradient-2 port-title justify-self-center m-bottom-4">Dead Cells, the Queen and the Sea</h3>
+            <div class="port-div flex flex-start aling-center hidden m4 radius-2">
+                <img id="port-pop" class="port-img width-100 justify-self-center " src="images/stock/project 2/a3.jpg" alt="">
+                <p class="hover-port-text none port-text m-1">
+                    Dead Cells es un juego de acción de plataformas de estilo roguelite 
+                    inspirado en juegos tipo metroidvania. Explorarás un castillo en 
+                    constante cambio y expansión. Sin puntos de control: mata, muere, aprende, repite.
+                    En Dead Cells, controlarás un experimento alquímico fallido para 
+                    descubrir qué sucede en una isla supuestamente maldita que sufre 
+                    constantes cambios y expansiones. Al ser inmortal pero estar lisiado, 
+                    deberás poseer cuerpos para moverte, explorar y luchar.      
+                </p>
+            </div>
+            <p class="port-text m-1 gray-2">
+                Dead Cells es un juego de acción de plataformas de estilo roguelite 
+                inspirado en juegos tipo metroidvania. Explorarás un castillo en 
+                constante cambio y expansión. Sin puntos de control: mata, muere, aprende, repite.
+                En Dead Cells, controlarás un experimento alquímico fallido para 
+                descubrir qué sucede en una isla supuestamente maldita que sufre 
+                constantes cambios y expansiones. Al ser inmortal pero estar lisiado, 
+                deberás poseer cuerpos para moverte, explorar y luchar.      
+            </p>
+            <div class="port-images flex flex-center aling-center gap-4">
+                <div class="port-img-container flex flex-center aling-center">
+                    <img class="justify-self-center width-100 m-3 radius-2 img-1 border-2 bc3" src="images/stock/project 2/a2.jpg" alt="">
+                </div>
+                <div class="port-img-container flex flex-center aling-center">
+                    <img class="justify-self-center width-100 m-3 radius-2 img-2 border-2 bc3" src="images/stock/project 2/a5.webp" alt=""> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="recursos" class=" flex flex-center aling-center width-75 m-top-7 column justify-self-center">
+            <h2 class="title-gradient-1 flex flex-center m-bottom-3 text-center">Recursos para desarrolladores</h2>
+            <h4 class="title-gradient-1 flex flex-center m-bottom-2 text-center">Sumérgete en la Oscuridad, Crea e Innova</h4>
+        <p class="gray-2 size-2 text-center">En Skull Dungeon, no solo creamos videojuegos inmersivos y visualmente impactantes, sino que también nos dedicamos a apoyar a la comunidad de desarrolladores. Sabemos que el proceso de desarrollo de videojuegos puede ser desafiante, por eso hemos creado una sección de recursos especialmente para ti.</p>
+        <h5 class="title-gradient-1 flex flex-center m-block-3">Tutoriales y Guías</h5>
+        <p class="gray-2 size-2 text-center">Nuestra biblioteca de tutoriales y guías está diseñada para ayudarte en cada etapa del desarrollo. Desde los conceptos básicos de programación hasta las técnicas avanzadas de diseño gráfico y animación, nuestros recursos te proporcionarán el conocimiento necesario para llevar tus proyectos al siguiente nivel.</p>
+        <h5 class="title-gradient-1 flex flex-center m-block-3">Herramientas y Plantillas</h5>
+        <p class="gray-2 size-2 text-center">En Skull Dungeon, creemos en la importancia de contar con las herramientas adecuadas. Por eso, ofrecemos una selección de herramientas y plantillas que te facilitarán el proceso de creación. Estas incluyen modelos 3D, texturas, scripts de programación y mucho más, todo listo para ser integrado en tus propios juegos.</p>
+        <h5 class="title-gradient-1 flex flex-center m-block-3">Comunidad y Soporte</h5>
+        <p class="gray-2 size-2 text-center">Formar parte de una comunidad activa es esencial para cualquier desarrollador. Nuestra plataforma ofrece foros y grupos de discusión donde puedes conectarte con otros desarrolladores, compartir tus experiencias, recibir feedback y colaborar en proyectos conjuntos. Además, nuestro equipo de soporte está siempre disponible para ayudarte con cualquier duda o problema que puedas tener.</p>
+        <h5 class="title-gradient-1 flex flex-center m-block-3">Blog de Desarrolladores</h5>
+        <p class="gray-2 size-2 text-center">Mantente actualizado con las últimas tendencias y novedades de la industria a través de nuestro blog de desarrolladores. Aquí encontrarás artículos escritos por expertos, entrevistas con desarrolladores líderes y noticias sobre los últimos lanzamientos y eventos del mundo del videojuego.</p>
+        <div></div>
+    </section>
+    <section id="nosotros" class=" flex flex-center aling-center width-75 m-top-7 column justify-self-center">
+        <h2 class="title-gradient-1 flex flex-center m-block-3">Acerca de Nosotros</h4>
+        <video class="m-block-3 radius-3" src="https://video.fastly.steamstatic.com/store_trailers/257075324/movie480_vp9.webm?t=1732209325" muted loop autoplay></video>
+        <p class="gray-2 size-2 text-center">En Skull Dungeon, somos apasionados del diseño y desarrollo de videojuegos que capturan la imaginación y ofrecen experiencias inmersivas y visualmente sorprendentes. Nuestro equipo está compuesto por creativos y desarrolladores comprometidos con la innovación y la excelencia en cada proyecto. Nos enorgullecemos de nuestra capacidad para combinar tecnología de punta con narrativas cautivadoras, creando mundos en los que los jugadores pueden perderse. Además, nos dedicamos a apoyar a la comunidad de desarrolladores con recursos valiosos que fomentan el aprendizaje y la colaboración.</p>
+    </section>
+    <section id="contacto" class=" flex flex-center aling-center width-50 m-top-7 justify-self-center gap-2">
+        <form action="" class="flex flex-center aling-center column gap-3">
+            <h3 class="title-gradient-1 flex flex-center m-block-3">Contáctanos</h2>
+            <input class="form-1 size-2" type="text" placeholder="Nombre">
+            <input class="form-1 size-2" type="text" placeholder="E-mail">
+            <textarea id="form-area" class="form-1 size-2" name="" id="" cols="30" rows="10" placeholder="Asunto"></textarea>
+            <div class="flex flex-between gap-3 p-right-4">
+                <div class="flex column">
+                    <label for="option-1" class="size-5 title-gradient-1">Cliente</label>
+                    <label for="option-1" class="gray-2 size-2">Consulta sobre productos y servicios.</label>
+                </div>
+            <input id="option-1" class="radio form-1 size-2" type="radio" name="text" value="Public">
+            </div>
+            <div class="flex flex-between gap-3 p-right-4">
+                <div class="flex column">
+                    <label for="option-2" class="size-5 title-gradient-1">Colaborador</label>
+                    <label for="option-2" class="gray-2 size-2">Trabaja con nosotros.</label>
+                </div>
+            <input id="option-2" class="radio form-1 size-2" type="radio" name="text" value="Public">
+            </div>    
+            <button id="form-button" class="button-1" type="submit">Enviar</button>
+        </form>          
+        <div class="m-left-2">
+            <h3 id="social-title"class="title-gradient-1 text-center m-block-3">Nuestras Redes</h3>
+            <img id="social-img" class="width-150p flex justify-self-center m-bottom-3" src="images/Logos/LOGO-6.png" alt="">
+            <ul id="social-list" class="m-top-4 width-content justify-self-center">
+                <li class="contact m-bottom-3">
+                    <i class="contact-icon m-right-2 size-3 shadow-primary fa-brands fa-youtube"></i>
+                    <span class="contact-span gray-2 size-2">YouTube</span>
+                </li>
+                <li class="contact m-bottom-3">
+                    <i class="contact-icon m-right-2 size-3 shadow-primary fa-brands fa-instagram"></i>
+                    <span class="contact-span gray-2 size-2">Instagram</span>
+                </li>
+                <li class="contact m-bottom-3">
+                    <i class="contact-icon m-right-2 size-3 shadow-primary fa-brands fa-facebook"></i>
+                    <span class="contact-span gray-2 size-2">FaceBook</span>
+                </li>
+                <li class="contact m-bottom-3">
+                    <i class="contact-icon m-right-2 size-3 shadow-primary fa-brands fa-x-twitter"></i>
+                    <span class="contact-span gray-2 size-2">X</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="width-100 flex aling-center flex-center bg-2 p-block-2 m-top-4">
+        <h6 class="text-center">2024-Skull Dungeon</h6>
+    </footer>
+</body>
+</html>
