@@ -404,6 +404,7 @@ p, a, li, span, small, strong, label, option, blockquote{
 .shadow-2 { box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); }
 .shadow-3 { box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); }
 .shadow-4 { box-shadow: 0 0 16px 0 rgba(0, 0, 0, .75); }
+.red-shadow-4 { box-shadow: 0 0 16px 0 #f44f4fb7 ; }
 /* -- TEXT SIZE -- */
 .size-1 { font-size: var(--size-1); }
 .size-2 { font-size: var(--size-2); }
@@ -414,6 +415,9 @@ p, a, li, span, small, strong, label, option, blockquote{
 
 /* -- COMPONETS -- */
 
+.form-1::placeholder{
+    color: var(--gray-2);
+}
 .button-1{
     border-radius: var(--radius-2);
     font-size: var(--size-2);
@@ -546,7 +550,7 @@ input[type="radio"] + label {
         transition: all 0.3s;
     }
     .port-div{
-        border: 2px solid var(--primary);
+        box-shadow: 0 0 16px 0 #f44f4fb7 ;
         transition: all 1s;
     }
     .port-div:hover{
