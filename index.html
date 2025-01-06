@@ -10,12 +10,12 @@
      <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
      <script src="https://kit.fontawesome.com/bb8f1272ae.js" crossorigin="anonymous"></script>
      <!---->
-      <link rel="stylesheet" href="library.css">
-      <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="library.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Logos/LOGO-3.png">
 </head>
 <body id="body">
-    <header id="header" class="width-100 p-inline-5 p-block-2 m-top-4 flex flex-center aling-center fixed">
+    <header id="header" class="width-100 p-inline-5 p-block-2 m-top-2 flex flex-center aling-center fixed">
         <nav id="nav-visible" class="flex flex-center aling-center bg-transparent p-inline-4 p-block-2 radius-3">
             <img id="header-logo" class="width-40p flex flex-center m-right-4" src="images/Logos/LOGO-3.png" alt="Logo Skull Dungeon">
             <div class="flex flex-center gap-4">
@@ -36,17 +36,21 @@
             </div>
             <a href="#contacto" id="header-button"><button type="button"  class="button-1 align-self-center m-left-4"><i class="fa-solid fa-envelope"></i></button></a>
         </nav>
-        <nav id="header-burguer" class="none flex-center bg-transparent p-inline-4 p-block-2 radius-3">
+        <nav id="header-burguer" class="none flex-between aling-center bg-transparent p-inline-4 p-block-2 radius-3 width-100 relative">
             <img id="header-logo" class="width-40p flex flex-center m-right-4" src="images/Logos/LOGO-3.png" alt="Logo Skull Dungeon">
-            <div class="menu-wrapper"> 
-                <select class="menu-desplegable button-1" onchange="location = this.value;"> 
-                    <option class="button-1" value="">Menú</option> 
-                    <option class="button-1" value="inicio.html">Inicio</option> <option class="button-1" value="juegos.html">Juegos</option> <option class="button-1" value="recursos.html">Recursos</option> 
-                    <option class="button-1" value="nosotros.html">Nosotros</option> 
-                    <option class="button-1" value="contacto.html">Contacto</option> </select> <i class="fas fa-bars menu-desplegable-icon"></i> </div>
+            <button id="burguer-button" class="button-1 align-self-center"><i class="fa-solid fa-bars">
+            </i></button>
+            <ul id="nav-bar" class="absolute width-max height-max gap-2 none column bg-transparent-2 radius-3 ">
+                <li class="width-content justify-self-center m-bottom-3"><a id="home" class="list-anchor" href="#body">Inicio</a></li>
+                <li class="width-content justify-self-center m-bottom-3"><a id="games" class="list-anchor" href="#portafolio">Juegos</a></li>
+                <li class="width-content justify-self-center m-bottom-3"><a id="sources" class="list-anchor" href="#recursos">Recursos</a></li>
+                <li class="width-content justify-self-center m-bottom-3"><a id="nos" class="list-anchor" href="#nosotros">Nosotros</a></li>
+                <li class="width-content justify-self-center m-bottom-3"><a id="contact" class="list-anchor" href="#contacto">Contacto</a></li>
+                <li class="close-button  flex justify-self-center m-bottom-7"><a id="close-button"><i class="close-button m-top-7 fa-solid fa-rectangle-xmark"></i></a></li>
+            </ul>
         </nav>
     </header>
-    <main id="main" class="flex flex-center aling-center m-bottom-7">
+    <main id="main" class="flex flex-center aling-center">
         <section id="main-section" class="fit-content relative">
             <img id="main-logo"class="absolute" src="images/Logos/LOGO-6.png" alt="">
             <div id="main-div" class="flex flex-center aling-center radius-3 relative"> 
@@ -56,7 +60,7 @@
             </div>
         </section>
     </main>
-    <section id="portafolio" class="flex flex-start aling-center width-100  m-top-7 column">
+    <section id="portafolio" class="flex flex-start aling-center width-100 distance-header column">
         <h2 id="port-header" class="title-gradient-2 flex flex-center m-bottom-3">El Universo Skull Dungeon</h2>
         <div class="port-container m-5 flex flex-center justify-self-center">
             <h3 class="title-gradient-2 port-title justify-self-center m-bottom-4">The rouge, Prince of Persia</h3>
@@ -115,7 +119,7 @@
             </div>
         </div>
     </section>
-    <section id="recursos" class=" flex flex-center aling-center width-75 m-top-7 column justify-self-center">
+    <section id="recursos" class=" flex flex-center aling-center width-75 distance-header column justify-self-center">
             <h2 class="title-gradient-1 flex flex-center m-bottom-3 text-center">Recursos para desarrolladores</h2>
             <h4 class="title-gradient-1 flex flex-center m-bottom-2 text-center">Sumérgete en la Oscuridad, Crea e Innova</h4>
         <p class="gray-2 size-2 text-center">En Skull Dungeon, no solo creamos videojuegos inmersivos y visualmente impactantes, sino que también nos dedicamos a apoyar a la comunidad de desarrolladores. Sabemos que el proceso de desarrollo de videojuegos puede ser desafiante, por eso hemos creado una sección de recursos especialmente para ti.</p>
@@ -129,12 +133,12 @@
         <p class="gray-2 size-2 text-center">Mantente actualizado con las últimas tendencias y novedades de la industria a través de nuestro blog de desarrolladores. Aquí encontrarás artículos escritos por expertos, entrevistas con desarrolladores líderes y noticias sobre los últimos lanzamientos y eventos del mundo del videojuego.</p>
         <div></div>
     </section>
-    <section id="nosotros" class=" flex flex-center aling-center width-75 m-top-7 column justify-self-center">
-        <h2 class="title-gradient-1 flex flex-center m-block-3">Acerca de Nosotros</h4>
-        <video class="m-block-3 radius-3" src="https://video.fastly.steamstatic.com/store_trailers/257075324/movie480_vp9.webm?t=1732209325" muted loop autoplay></video>
+    <section id="nosotros" class=" flex flex-center aling-center width-75 distance-header column justify-self-center">
+        <h2 class="title-gradient-1 flex flex-center m-bottom-3">Acerca de Nosotros</h4>
+        <video id="nos-video" class="m-block-3 radius-3" src="https://video.fastly.steamstatic.com/store_trailers/257075324/movie480_vp9.webm?t=1732209325" muted loop autoplay></video>
         <p class="gray-2 size-2 text-center">En Skull Dungeon, somos apasionados del diseño y desarrollo de videojuegos que capturan la imaginación y ofrecen experiencias inmersivas y visualmente sorprendentes. Nuestro equipo está compuesto por creativos y desarrolladores comprometidos con la innovación y la excelencia en cada proyecto. Nos enorgullecemos de nuestra capacidad para combinar tecnología de punta con narrativas cautivadoras, creando mundos en los que los jugadores pueden perderse. Además, nos dedicamos a apoyar a la comunidad de desarrolladores con recursos valiosos que fomentan el aprendizaje y la colaboración.</p>
     </section>
-    <section id="contacto" class=" flex flex-center aling-center width-50 m-top-7 justify-self-center gap-2">
+    <section id="contacto" class=" flex flex-center aling-center width-50 distance-header justify-self-center gap-2">
         <form action="" class="flex flex-center aling-center column gap-3">
             <h3 class="title-gradient-1 flex flex-center m-block-3">Contáctanos</h2>
             <input class="form-1 size-2" type="text" placeholder="Nombre">
@@ -156,7 +160,7 @@
             </div>    
             <button id="form-button" class="button-1" type="submit">Enviar</button>
         </form>          
-        <div class="m-left-2">
+        <div id="social-div" class="m-left-2">
             <h3 id="social-title"class="title-gradient-1 text-center m-block-3">Nuestras Redes</h3>
             <img id="social-img" class="width-150p flex justify-self-center m-bottom-3" src="images/Logos/LOGO-6.png" alt="">
             <ul id="social-list" class="m-top-4 width-content justify-self-center">
@@ -182,5 +186,6 @@
     <footer class="width-100 flex aling-center flex-center bg-2 p-block-2 m-top-4">
         <h6 class="text-center">2024-Skull Dungeon</h6>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>

@@ -97,32 +97,12 @@
     margin-left: 25%;
 }
 
-
-.menu-desplegable { 
-    font-size: 16px;
-    padding: 10px; 
-    border-radius: 5px; 
-    border: 1px solid #333; 
-    background-color: #fff; 
-    color: #333; 
-    appearance: none; 
-    /* Ocultar el carrot por defecto */ 
-    -webkit-appearance: none; 
-    -moz-appearance: none; 
-    position: relative; 
-} 
-.menu-desplegable-icon { 
-    position: absolute; 
-    right: 10px; 
-    top: 50%; 
-    transform: translateY(-50%); 
-    pointer-events: none; 
-} 
-.menu-wrapper { 
-    position: relative; 
-    display: inline-block; 
+.fa-rectangle-xmark::before{
+    width: 25px;
+    height: 25px;
 }
 
-   
+
+
 
 
