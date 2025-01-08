@@ -39,6 +39,7 @@ contact.addEventListener("click", () => {
 const headerLogo = document.querySelector("#header-logo")
 const headerLogo1 = document.querySelector("#header-logo-1")
 const headerLogo2 = document.querySelector("#header-logo-2")
+const socialImage = document.querySelector("#social-img")
 const libreria = document.querySelector("#root")
 const logo = document.querySelector("#main-logo")
 
@@ -73,6 +74,12 @@ headerLogo.addEventListener('click', () => {
         else { 
             headerLogo2.src = 'images/Logos/LOGO-3.png';
         }
+    if 
+        (socialImage.src.endsWith('images/Logos/LOGO-6.png')) {socialImage.src = 'images/Logos/LOGO-7.png';
+        } 
+        else { 
+            socialImage.src = 'images/Logos/LOGO-6.png';
+        } 
 });
 headerLogo1.addEventListener('click', () => { 
     if 
@@ -104,7 +111,13 @@ headerLogo1.addEventListener('click', () => {
         } 
         else { 
             headerLogo2.src = 'images/Logos/LOGO-3.png';
+        }
+    if 
+        (socialImage.src.endsWith('images/Logos/LOGO-6.png')) {socialImage.src = 'images/Logos/LOGO-7.png';
         } 
+        else { 
+            socialImage.src = 'images/Logos/LOGO-6.png';
+        }  
 });
 headerLogo2.addEventListener('click', () => { 
     if 
@@ -136,5 +149,11 @@ headerLogo2.addEventListener('click', () => {
         } 
         else { 
             headerLogo.src = 'images/Logos/LOGO-3.png';
-        }   
+        }
+    if 
+        (socialImage.src.endsWith('images/Logos/LOGO-6.png')) {socialImage.src = 'images/Logos/LOGO-7.png';
+        } 
+        else { 
+            socialImage.src = 'images/Logos/LOGO-6.png';
+        }    
 });

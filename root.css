@@ -16,8 +16,8 @@
     --gray-2: #CFC3C3;
     --gray-5: #FCEDED;
 
-    --white: #FFFFFF;
-    --text: #000000;
+    --white: #000000;
+    --text: #ffffff;
 
     /* --------------------- */
 
@@ -58,7 +58,7 @@ body{
 
 
 .title-gradient-1{
-    background: linear-gradient(90deg, #901414 55%, #e03535 75%);    
+    background: linear-gradient(90deg, #4A0606 55%, #170404 75%);    
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
