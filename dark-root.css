@@ -1,0 +1,72 @@
+:root{
+    --lt-primary: #F44F4F;
+
+    --primary: #E03535;
+    --shadow-primary: #901414;
+
+    --dark-primary: #4A0606;
+    --bg-primary: #170404;
+
+    --gray-op-2: #3C2525;
+    --gray-op-1: #5C4545;
+    
+    --gray-5: #786262;
+    --gray-4: #968787;
+    --gray-3: #AAA2A2;
+    --gray-2: #CFC3C3;
+    --gray-1: #FCEDED;
+
+    --white: #FFFFFF;
+    --text: #000000;
+
+    /* --------------------- */
+
+    --radius-1: 4px;
+    --radius-2: 16px;
+    --radius-3: 32px;
+    --radius-4: 40px;
+
+    /* --------------------- */
+
+    --distance-1:  0.25rem; /* 16px = 1rem */
+    --distance-2:  0.5rem; /* 16px = 1rem */
+    --distance-3:  1rem; /* 16px = 1rem */
+    --distance-4:  2rem; /* 16px = 1rem */
+    --distance-5:  2.5rem; /* 16px = 1rem */
+    --distance-6:  3.75rem; /* 16px = 1rem */
+    --distance-7:  4.375rem; /* 16px = 1rem */
+
+    --distance-header: 6.125rem;
+
+    /* --------------------- */
+
+    --size-1: 1rem;
+    --size-2: 1.25rem;
+    --size-3: 1.5rem;
+    --size-4: 1.65rem;
+    --size-5: 2rem;
+    --size-6: 2.5rem;
+
+    --size-max-1: 2.85rem;
+    --size-max-2: 3.5rem;
+    --size-max-3: 4rem;
+}
+
+body{
+    background: rgb(23,4,4);
+    background: linear-gradient(39deg, #170404 50%, #4a0606 80%);
+}
+
+
+.title-gradient-1{
+    background: linear-gradient(90deg, rgba(144,20,20,1) 55%, rgba(224,53,53,1) 75%);    
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.title-gradient-2{
+    background: linear-gradient(90deg, rgba(207,195,195,1) 55%, rgba(92,69,69,1) 75%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.red-shadow-4 { box-shadow: 0 0 16px 0 #f44f4fb7 ; }

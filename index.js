@@ -34,3 +34,107 @@ nos.addEventListener("click", () => {
 contact.addEventListener("click", () => {
     navBar.classList.add("none");
 });
+
+
+const headerLogo = document.querySelector("#header-logo")
+const headerLogo1 = document.querySelector("#header-logo-1")
+const headerLogo2 = document.querySelector("#header-logo-2")
+const libreria = document.querySelector("#root")
+const logo = document.querySelector("#main-logo")
+
+headerLogo.addEventListener('click', () => { 
+    if 
+        (libreria.href.endsWith('dark-root.css')) {      libreria.href = 'root.css';
+        } 
+        else { 
+            libreria.href = 'dark-root.css';
+        } 
+    if 
+        (logo.src.endsWith('images/Logos/LOGO-6.png')) {      logo.src = 'images/Logos/LOGO-7.png';
+        } 
+        else { 
+            logo.src = 'images/Logos/LOGO-6.png';
+        } 
+    if 
+        (headerLogo.src.endsWith('images/Logos/LOGO-3.png')) {headerLogo.src = 'images/Logos/LOGO-4.png';
+        } 
+        else { 
+            headerLogo.src = 'images/Logos/LOGO-3.png';
+        } 
+    if 
+        (headerLogo1.src.endsWith('images/Logos/LOGO-3.png')) {headerLogo1.src = 'images/Logos/LOGO-4.png';
+        } 
+        else { 
+            headerLogo1.src = 'images/Logos/LOGO-3.png';
+        }
+    if 
+        (headerLogo2.src.endsWith('images/Logos/LOGO-3.png')) {headerLogo2.src = 'images/Logos/LOGO-4.png';
+        } 
+        else { 
+            headerLogo2.src = 'images/Logos/LOGO-3.png';
+        }
+});
+headerLogo1.addEventListener('click', () => { 
+    if 
+        (libreria.href.endsWith('dark-root.css')) {      libreria.href = 'root.css';
+        } 
+        else { 
+            libreria.href = 'dark-root.css';
+        } 
+    if 
+        (logo.src.endsWith('images/Logos/LOGO-6.png')) {      logo.src = 'images/Logos/LOGO-7.png';
+        } 
+        else { 
+            logo.src = 'images/Logos/LOGO-6.png';
+        }
+    if 
+        (headerLogo.src.endsWith('images/Logos/LOGO-3.png')) {headerLogo.src = 'images/Logos/LOGO-4.png';
+        } 
+        else { 
+            headerLogo.src = 'images/Logos/LOGO-3.png';
+        } 
+    if 
+        (headerLogo1.src.endsWith('images/Logos/LOGO-3.png')) {headerLogo1.src = 'images/Logos/LOGO-4.png';
+        } 
+        else { 
+            headerLogo1.src = 'images/Logos/LOGO-3.png';
+        }
+    if 
+        (headerLogo2.src.endsWith('images/Logos/LOGO-3.png')) {headerLogo2.src = 'images/Logos/LOGO-4.png';
+        } 
+        else { 
+            headerLogo2.src = 'images/Logos/LOGO-3.png';
+        } 
+});
+headerLogo2.addEventListener('click', () => { 
+    if 
+        (libreria.href.endsWith('dark-root.css')) {      libreria.href = 'root.css';
+        } 
+        else { 
+            libreria.href = 'dark-root.css';
+        } 
+    if 
+        (logo.src.endsWith('images/Logos/LOGO-6.png')) {      logo.src = 'images/Logos/LOGO-7.png';
+        } 
+        else { 
+            logo.src = 'images/Logos/LOGO-6.png';
+        } 
+    if 
+        (headerLogo2.src.endsWith('images/Logos/LOGO-3.png')) {headerLogo2.src = 'images/Logos/LOGO-4.png';
+        } 
+        else { 
+            headerLogo2.src = 'images/Logos/LOGO-3.png';
+        }
+    if 
+        (headerLogo1.src.endsWith('images/Logos/LOGO-3.png')) {headerLogo1.src = 'images/Logos/LOGO-4.png';
+        } 
+        else { 
+            headerLogo1.src = 'images/Logos/LOGO-3.png';
+        }
+    if 
+        (headerLogo.src.endsWith('images/Logos/LOGO-3.png')) {headerLogo.src = 'images/Logos/LOGO-4.png';
+        } 
+        else { 
+            headerLogo.src = 'images/Logos/LOGO-3.png';
+        }   
+});

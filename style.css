@@ -4,7 +4,24 @@
 #header-logo{
     transition: all 0.3s;
 }
-#header-logo:hover{ transform: scale(1.3); }
+#header-logo:hover{ 
+    cursor: pointer;
+    transform: scale(1.3); 
+}
+#header-logo-1{
+    transition: all 0.3s;
+}
+#header-logo-1:hover{ 
+    cursor: pointer;
+    transform: scale(1.3); 
+}
+#header-logo-2{
+    transition: all 0.3s;
+}
+#header-logo-2:hover{ 
+    cursor: pointer;
+    transform: scale(1.3); 
+}
 
 #header-button{ 
     min-width: fit-content;
